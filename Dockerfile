@@ -5,7 +5,7 @@ MAINTAINER haubar
 ENV TZ "Asia/Taipei"
 
 RUN apt-get update -y && \
-    apt-get upgrade && \
+    apt-get upgrade -y && \
     apt-get clean
 
 #define any config to copy 
